@@ -7,7 +7,7 @@
 get_header(); 
 
 ?>
-<section class="home-body">
-  <?php include 'page-templates/partials/hero.php'  ?>
+<section class="home-body wrap">
+  <?php include 'partials/hero.php'  ?>
 </section>
 <?php get_footer(); ?>
