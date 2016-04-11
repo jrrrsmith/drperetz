@@ -331,8 +331,10 @@ h6 {
         color: #BADAD4; }
 
 .elements {
-  background-color: #15675F;
-  color: #FFFFFF; }
+  background-color: #152132;
+  color: #FFFFFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
   .elements::after {
     clear: both;
     content: "";
@@ -340,9 +342,10 @@ h6 {
 
 .element-item {
   padding: 30px 15px 15px;
-  width: 33%;
+  width: 33.33333%;
   float: left;
-  display: inline-block; }
+  display: inline-block;
+  background-color: transparent; }
   .element-item__title {
     text-align: center;
     font-size: 24px;
@@ -355,7 +358,10 @@ h6 {
   .element-item__text {
     font-size: 16px; }
   .element-item--active {
-    padding: 30px 15px; }
+    padding: 30px 15px;
+    background-color: #15675F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; }
     .element-item--active .element-item__info {
       display: block; }
 

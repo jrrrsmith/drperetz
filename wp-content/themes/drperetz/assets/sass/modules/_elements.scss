@@ -1,14 +1,17 @@
 .elements{
-  background-color: $_sea-green;
+  background-color: $_navy;
   color: $white;
   @include clearfix;
+  border-top-left-radius: $border-radius-size;
+  border-top-right-radius: $border-radius-size;
 }
 
 .element-item{
   padding: 30px 15px 15px;
-  width: 33%;
+  width: 33.33333%;
   float: left;
   display: inline-block;
+  background-color: transparent;
   &__title{
     text-align: center;
     font-size: 24px;
@@ -26,6 +29,9 @@
   }
   &--active{
     padding: 30px 15px;
+    background-color: $_sea-green;
+    border-top-left-radius: $border-radius-size;
+    border-top-right-radius: $border-radius-size; 
     .element-item__info{
       display: block;
     }
