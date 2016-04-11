@@ -13,7 +13,7 @@
     </div>
     <div class="element-item">
       <div class="element-item__top">
-        <h3 class="element-item__title">nourish - cleanse - heal</h3>
+        <h3 class="element-item__title">restore - inspire - energize</h3>
         <img src="<?php bloginfo('template_url');?>/assets/images/care-2.png" class="element-item__img" />
       </div>
       <div class="element-item__info">
@@ -24,7 +24,7 @@
     </div>
     <div class="element-item">
       <div class="element-item__top">
-        <h3 class="element-item__title">nourish - cleanse - heal</h3>
+        <h3 class="element-item__title">bask - soak - lavish</h3>
         <img src="<?php bloginfo('template_url');?>/assets/images/care-3.png" class="element-item__img" />
       </div>
       <div class="element-item__info">
