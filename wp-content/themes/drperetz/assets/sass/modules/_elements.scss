@@ -1,5 +1,5 @@
 .elements{
-  background-color: $_navy;
+  @include background-image(linear-gradient($_navy 0, $_sea-green 20%));
   color: $white;
   @include clearfix;
   border-top-left-radius: $border-radius-size;
@@ -11,29 +11,51 @@
   width: 33.33333%;
   float: left;
   display: inline-block;
-  background-color: transparent;
+  background-color: $_navy;
+  border-top-right-radius: $border-radius-size;
+  &__top{
+    cursor: pointer;
+    &:hover{
+      .element-item__title,
+      .element-item__img{
+        opacity: 1;
+      }
+    }
+  }
   &__title{
     text-align: center;
     font-size: 24px;
     font-style: italic;
     font-weight: 300;
+    opacity: .5;
+    transition: opacity .3s ease-in-out;
   }
   &__img{
     width: 100%;
+    opacity: .5;
+    transition: opacity .3s ease-in-out;
+    backface-visibility: hidden;
   }
   &__info{
     display: none;
   }
   &__text{
     font-size: 16px;
+    margin-top: 16px;
   }
   &--active{
     padding: 30px 15px;
     background-color: $_sea-green;
     border-top-left-radius: $border-radius-size;
     border-top-right-radius: $border-radius-size; 
-    .element-item__info{
-      display: block;
+    .element-item{
+      &__info{
+        display: block;
+      }
+      &__img,
+      &__title{
+        opacity: 1;
+      }
     }
   }
 }
