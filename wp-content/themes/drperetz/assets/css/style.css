@@ -318,4 +318,16 @@ h6 {
     font-weight: 300;
     font-style: italic; }
 
+.intro {
+  background-color: #FFFFFF;
+  padding: 20px 80px; }
+  .intro__text {
+    color: #374202;
+    font-size: 19px; }
+    .intro__text a {
+      color: #15675F;
+      text-decoration: underline; }
+      .intro__text a:hover {
+        color: #BADAD4; }
+
 /*# sourceMappingURL=style.css.map */
