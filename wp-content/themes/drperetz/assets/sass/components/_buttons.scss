@@ -35,9 +35,11 @@
     transform: translateX(-50%);
   }
   &--left{
-    left: 6.5%;
+    left: 16.66666666%;
+    transform: translateX(-50%);
   }
   &--right{
-    right: 6.5%;
+    right: 16.6666666%;
+    transform: translateX(50%);
   }
 }
