@@ -333,5 +333,30 @@ h6 {
 .elements {
   background-color: #15675F;
   color: #FFFFFF; }
+  .elements::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.element-item {
+  padding: 30px 15px 15px;
+  width: 33%;
+  float: left;
+  display: inline-block; }
+  .element-item__title {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300; }
+  .element-item__img {
+    width: 100%; }
+  .element-item__info {
+    display: none; }
+  .element-item__text {
+    font-size: 16px; }
+  .element-item--active {
+    padding: 30px 15px; }
+    .element-item--active .element-item__info {
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */
