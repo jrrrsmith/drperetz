@@ -228,6 +228,43 @@ html {
 /*--------------------------------------------------------------
 5.0 Components/Add-ons
 --------------------------------------------------------------*/
+#page {
+  min-height: 3000px; }
+
+.button {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid;
+  border-radius: 5px;
+  transition: all .3s ease-in-out; }
+  .button--white {
+    color: #BADAD4;
+    border-color: #FFFFFF; }
+    .button--white:hover {
+      background-color: #BADAD4;
+      color: #15675F; }
+  .button--green {
+    color: #BADAD4;
+    border-color: #15675F; }
+    .button--green:hover {
+      background-color: #BADAD4;
+      color: #152132; }
+  .button--navy {
+    color: #152132;
+    border-color: #15675F; }
+    .button--navy:hover {
+      background-color: #152132;
+      color: #FFFFFF; }
+  .button--center {
+    left: 50%;
+    transform: translateX(-50%); }
+  .button--left {
+    left: 6.5%; }
+  .button--right {
+    right: 6.5%; }
+
 /*--------------------------------------------------------------
 6.0 Layout and Structure
 --------------------------------------------------------------*/
@@ -334,6 +371,7 @@ h6 {
   background-image: -webkit-linear-gradient(#152132 0, #15675F 20%);
   background-image: linear-gradient(to   , #15675F 20%);
   color: #FFFFFF;
+  position: relative;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
   .elements::after {
@@ -371,6 +409,12 @@ h6 {
   .element-item__text {
     font-size: 16px;
     margin-top: 16px; }
+    .element-item__text a {
+      font-weight: 700;
+      font-style: italic;
+      color: inherit; }
+      .element-item__text a:hover {
+        text-decoration: underline; }
   .element-item--active {
     padding: 30px 15px;
     background-color: #15675F; }
@@ -378,5 +422,8 @@ h6 {
       display: block; }
     .element-item--active .element-item__img, .element-item--active .element-item__title {
       opacity: 1; }
+  .element-item .button {
+    bottom: 14%;
+    position: absolute; }
 
 /*# sourceMappingURL=style.css.map */

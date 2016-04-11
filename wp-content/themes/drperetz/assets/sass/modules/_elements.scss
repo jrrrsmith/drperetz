@@ -2,6 +2,7 @@
   @include background-image(linear-gradient($_navy 0, $_sea-green 20%));
   color: $white;
   @include clearfix;
+  position: relative;
   border-top-left-radius: $border-radius-size;
   border-top-right-radius: $border-radius-size;
 }
@@ -43,6 +44,14 @@
   &__text{
     font-size: 16px;
     margin-top: 16px;
+    a{
+      font-weight: 700;
+      font-style: italic;
+      color: inherit;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
   &--active{
     padding: 30px 15px;
@@ -56,5 +65,9 @@
         opacity: 1;
       }
     }
+  }
+  .button{
+    bottom: 14%;
+    position: absolute;
   }
 }
