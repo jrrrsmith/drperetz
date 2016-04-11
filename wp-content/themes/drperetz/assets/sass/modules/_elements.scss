@@ -12,6 +12,7 @@
   float: left;
   display: inline-block;
   background-color: $_navy;
+  border-top-left-radius: $border-radius-size;
   border-top-right-radius: $border-radius-size;
   &__top{
     cursor: pointer;
@@ -46,8 +47,6 @@
   &--active{
     padding: 30px 15px;
     background-color: $_sea-green;
-    border-top-left-radius: $border-radius-size;
-    border-top-right-radius: $border-radius-size; 
     .element-item{
       &__info{
         display: block;
