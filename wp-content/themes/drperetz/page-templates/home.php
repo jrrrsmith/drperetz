@@ -13,5 +13,6 @@ get_header();
     <?php include 'partials/home/intro.php'  ?>
     <?php include 'partials/home/elements.php'  ?>
   </div>
+  <?php include 'partials/home/video.php' ?>
 </section>
 <?php get_footer(); ?>
