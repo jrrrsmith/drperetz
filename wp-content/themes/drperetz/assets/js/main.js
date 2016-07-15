@@ -12,3 +12,34 @@ $(document).ready(function () {
   });
 });
 
+
+// VIDEO RESIZE FUNCTION
+
+$(document).ready(function() {
+  var $allVideos = $("iframe[src^='https://player.vimeo.com'], iframe[src^='https://www.youtube.com']"),
+
+      $fluidEl = $(".home-video__wrap");
+
+  $allVideos.each(function() {
+
+    $(this)
+      .data('aspectRatio', this.height / this.width)
+
+      .removeAttr('height')
+      .removeAttr('width');
+
+  });
+
+  $(window).resize(function() {
+
+    var newWidth = $fluidEl.width();
+    $allVideos.each(function() {
+
+      var $el = $(this);
+      $el
+        .width(newWidth)
+        .height(newWidth * $el.data('aspectRatio'));
+
+    });
+  }).resize();
+});
