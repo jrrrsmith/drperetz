@@ -1,6 +1,26 @@
 .footer {
+  h2 {
+    @extend %stylized-text;
+    text-align: left;
+    font-size: 28px;
+    color: $_aqua-green;
+    a {
+      color: inherit;
+      text-decoration: underline;
+      &:hover {
+        color: lighten($_aqua-green, 20%);
+      }
+    }
+  }
   &__top {
     background-color: $white;
+    padding: 40px 0;
+    &__left {
+      @include span-columns(8);
+    }
+    &__right {
+      @include span-columns(4);
+    }
   }
   &__bottom {
     background-color: $_navy;

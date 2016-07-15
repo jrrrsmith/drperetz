@@ -4,6 +4,13 @@
     <div class="wrap">
       <div class="footer__top__left">
         <h2>the latest from the doctor's <a href="#">blog</a>:</h2>
+        <div class="recent-post">
+          <span class="recent-post__date">Friday, March 18, 2016</span>
+          <h3 class="recent-post__title">
+            <a href="#">One quick morning activity to rejuvenate your skin</a>
+          </h3>
+          <p class="recent-post__excerpt">Developing a regular meditation practice is an important element to the treatment of psoriasis.  And the benefits willextend far beyond your skin!  Mindfullness through nature, exercise, cooking and creative expression…<a href="#">Read more...</a></p>
+        </div>
       </div>
       <div class="footer__top__right">
       </div>
