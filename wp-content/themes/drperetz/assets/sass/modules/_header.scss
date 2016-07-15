@@ -8,13 +8,14 @@
     height: 50px;
     background-color: $_navy;
     .button {
-      float: left;
+      display: inline-block;
       margin-top: 8px;
     }
 
     &__form {
       float: right;
       min-width: 500px;
+      text-align: right;
     }
   }
 
@@ -37,7 +38,7 @@
     border: 1px solid;
     border-radius: 5px;
     max-width: 200px;
-    float: left;
+    display: inline-block;
     margin-top: 8px;
     margin-right: 10px;
     height: 33px;

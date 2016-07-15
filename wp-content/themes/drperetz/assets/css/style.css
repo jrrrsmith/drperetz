@@ -335,11 +335,12 @@ h6 {
   height: 50px;
   background-color: #152132; }
   .header__top .button {
-    float: left;
+    display: inline-block;
     margin-top: 8px; }
   .header__top__form {
     float: right;
-    min-width: 500px; }
+    min-width: 500px;
+    text-align: right; }
 .header__bottom {
   height: 75px;
   background-color: #FFFFFF; }
@@ -355,7 +356,7 @@ h6 {
   border: 1px solid;
   border-radius: 5px;
   max-width: 200px;
-  float: left;
+  display: inline-block;
   margin-top: 8px;
   margin-right: 10px;
   height: 33px; }
