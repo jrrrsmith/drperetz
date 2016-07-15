@@ -13,6 +13,14 @@
         </div>
       </div>
       <div class="footer__top__right">
+        <h2>stay in the know:</h2>
+        <a href="#" class="button button--navy">Schedule a consultation</a>
+        <a href="#" class="button button--navy">Sign up for the newsletter</a>
+        <div class="social-icons">
+          <a href="#" class="icon-facebook"></a>
+          <a href="#" class="icon-instagram"></a>
+        </div>
+        <a href="mailto:info@drchristianperetz.com" class="email-link">info@drchristianperetz.com</a>
       </div>
     </div>
   </div>

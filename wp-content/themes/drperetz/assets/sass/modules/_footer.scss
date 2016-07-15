@@ -1,28 +1,71 @@
 .footer {
+
+  &__top {
+    background-color: $white;
+    padding: 40px 0;
+
+    .social-icons {
+      color: $_aqua-green;
+      font-size: 30px;
+      a {
+        color: inherit;
+
+        &:hover {
+          opacity: .7;
+        }
+
+        &:first-of-type {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .email-link {
+      color: $_aqua-green;
+      font-size: 18px;
+      &:hover {
+        opacity: .7;
+        text-decoration: none;
+      }
+    }
+
+    &__left {
+      @include span-columns(8);
+    }
+
+    &__right {
+      @include span-columns(4);
+    }
+
+  }
+
+  &__bottom {
+    background-color: $_navy;
+  }
+
   h2 {
     @extend %stylized-text;
     text-align: left;
     font-size: 28px;
     color: $_aqua-green;
+
     a {
       color: inherit;
       text-decoration: underline;
+
       &:hover {
         color: lighten($_aqua-green, 20%);
       }
+
     }
+
   }
-  &__top {
-    background-color: $white;
-    padding: 40px 0;
-    &__left {
-      @include span-columns(8);
-    }
-    &__right {
-      @include span-columns(4);
-    }
+
+  .button {
+    display: block;
+    max-width: 250px;
+    margin: 10px 0;
+    text-align: center;
   }
-  &__bottom {
-    background-color: $_navy;
-  }
+
 }
