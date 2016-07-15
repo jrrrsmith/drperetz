@@ -329,6 +329,17 @@ h6 {
 /*--------------------------------------------------------------
 7.0 Modules
 --------------------------------------------------------------*/
+.header__inner {
+  position: relative; }
+.header__top {
+  height: 50px;
+  background-color: #152132; }
+.header__bottom {
+  height: 75px;
+  background-color: #FFFFFF; }
+.header .logo {
+  margin-top: 12px; }
+
 .hero {
   min-height: 315px;
   background-image: url(../images/home-hero.png);
@@ -350,10 +361,9 @@ h6 {
     z-index: 1;
     font-size: 32px;
     line-height: 38px;
-    width: 50%;
+    width: 35%;
     top: 45%;
-    right: 0;
-    padding-right: 10px;
+    right: 10%;
     font-weight: 300;
     font-style: italic; }
 

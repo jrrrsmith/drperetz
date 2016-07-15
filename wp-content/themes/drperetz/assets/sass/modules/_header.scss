@@ -1,3 +1,20 @@
 .header{
+
+  &__inner {
+    @include position(relative);
+  }
+
+  &__top {
+    height: 50px;
+    background-color: $_navy;
+  }
   
+  &__bottom {
+    height: 75px;
+    background-color: $white;
+  }
+
+  .logo {
+    margin-top: 12px;
+  }
 }
