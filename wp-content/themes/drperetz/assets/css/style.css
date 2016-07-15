@@ -390,17 +390,19 @@ h6 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px; }
   .element-item__top {
-    cursor: pointer; }
+    cursor: pointer;
+    text-align: center; }
     .element-item__top:hover .element-item__title,
     .element-item__top:hover .element-item__img {
       opacity: 1; }
   .element-item__title {
-    text-align: center;
     font-size: 24px;
     font-style: italic;
     font-weight: 300;
     opacity: .5;
-    transition: opacity .3s ease-in-out; }
+    transition: opacity .3s ease-in-out;
+    display: inline-block;
+    border-bottom: 1px solid #FFFFFF; }
   .element-item__img {
     width: 100%;
     opacity: .5;
