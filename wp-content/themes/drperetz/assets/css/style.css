@@ -329,6 +329,38 @@ h6 {
 /*--------------------------------------------------------------
 7.0 Modules
 --------------------------------------------------------------*/
+.header__inner {
+  position: relative; }
+.header__top {
+  height: 50px;
+  background-color: #152132; }
+  .header__top .button {
+    display: inline-block;
+    margin-top: 8px; }
+  .header__top__form {
+    float: right;
+    min-width: 500px;
+    text-align: right; }
+.header__bottom {
+  height: 75px;
+  background-color: #FFFFFF; }
+.header .logo {
+  margin-top: 12px; }
+.header input {
+  background-color: transparent;
+  color: #BADAD4;
+  border-color: #15675F !important;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid;
+  border-radius: 5px;
+  max-width: 200px;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 10px;
+  height: 33px; }
+
 .hero {
   min-height: 315px;
   background-image: url(../images/home-hero.png);
@@ -350,10 +382,9 @@ h6 {
     z-index: 1;
     font-size: 32px;
     line-height: 38px;
-    width: 50%;
+    width: 35%;
     top: 45%;
-    right: 0;
-    padding-right: 10px;
+    right: 10%;
     font-weight: 300;
     font-style: italic; }
 

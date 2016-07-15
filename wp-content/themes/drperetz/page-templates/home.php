@@ -7,9 +7,11 @@
 get_header(); 
 
 ?>
-<section class="home-body wrap">
+<section class="home-body">
   <?php include 'partials/hero.php'  ?>
-  <?php include 'partials/home/intro.php'  ?>
-  <?php include 'partials/home/elements.php'  ?>
+  <div class="wrap">
+    <?php include 'partials/home/intro.php'  ?>
+    <?php include 'partials/home/elements.php'  ?>
+  </div>
 </section>
 <?php get_footer(); ?>
