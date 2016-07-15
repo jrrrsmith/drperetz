@@ -30,3 +30,4 @@ wp-content/*
 !/wp-content/themes/drperetz
 
 ## Other rules down here.
+/wp-content/themes/drperetz/assets/css/*

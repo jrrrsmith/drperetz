@@ -3,6 +3,7 @@
   <div class="footer__top">
     <div class="wrap">
       <div class="footer__top__left">
+        <h2>the latest from the doctor's <a href="#">blog</a>:</h2>
       </div>
       <div class="footer__top__right">
       </div>
