@@ -1,7 +1,12 @@
 <?php include 'page-templates/partials/head.php'  ?>
 <header class="header">
   <div class="header__top">
-    <div class="header__inner wrap"></div>
+    <div class="header__inner wrap">
+      <div class="header__top__form">
+        <input type="text" placeholder="login:" />
+        <a class="button button--green" href="#">Schedule a Consultation</a>
+      </div>
+    </div>
   </div>
   <div class="header__bottom">
     <div class="header__inner wrap">

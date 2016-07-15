@@ -7,8 +7,17 @@
   &__top {
     height: 50px;
     background-color: $_navy;
+    .button {
+      float: left;
+      margin-top: 8px;
+    }
+
+    &__form {
+      float: right;
+      min-width: 500px;
+    }
   }
-  
+
   &__bottom {
     height: 75px;
     background-color: $white;
@@ -17,4 +26,21 @@
   .logo {
     margin-top: 12px;
   }
+
+  input {
+    background-color: transparent;
+    color: $_sea-green-light;
+    border-color: $_sea-green !important;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 200px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    height: 33px;
+  }
+
 }

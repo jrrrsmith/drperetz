@@ -334,11 +334,31 @@ h6 {
 .header__top {
   height: 50px;
   background-color: #152132; }
+  .header__top .button {
+    float: left;
+    margin-top: 8px; }
+  .header__top__form {
+    float: right;
+    min-width: 500px; }
 .header__bottom {
   height: 75px;
   background-color: #FFFFFF; }
 .header .logo {
   margin-top: 12px; }
+.header input {
+  background-color: transparent;
+  color: #BADAD4;
+  border-color: #15675F !important;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid;
+  border-radius: 5px;
+  max-width: 200px;
+  float: left;
+  margin-top: 8px;
+  margin-right: 10px;
+  height: 33px; }
 
 .hero {
   min-height: 315px;
