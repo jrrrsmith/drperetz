@@ -225,6 +225,11 @@ html {
 /*--------------------------------------------------------------
 4.0 Typography
 --------------------------------------------------------------*/
+.hero__text, .element-item__title, .home-video h2 {
+  font-style: italic;
+  text-transform: lowercase;
+  font-weight: 300; }
+
 /*--------------------------------------------------------------
 5.0 Components/Add-ons
 --------------------------------------------------------------*/
@@ -382,8 +387,7 @@ h6 {
     width: 35%;
     top: 45%;
     right: 10%;
-    font-weight: 300;
-    font-style: italic; }
+    text-transform: none; }
 
 .intro {
   background-color: #FFFFFF;
@@ -425,8 +429,6 @@ h6 {
       opacity: 1; }
   .element-item__title {
     font-size: 24px;
-    font-style: italic;
-    font-weight: 300;
     opacity: .5;
     transition: opacity .3s ease-in-out;
     display: inline-block;
@@ -476,10 +478,7 @@ h6 {
   .home-video h2 {
     color: #BADAD4;
     font-size: 24px;
-    font-style: italic;
-    text-transform: lowercase;
     text-align: center;
-    font-weight: 300;
     margin: 0 0 30px; }
   .home-video__wrap {
     float: left;
