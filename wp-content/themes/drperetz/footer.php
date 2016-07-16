@@ -25,7 +25,22 @@
     </div>
   </div>
   <div class="footer__bottom">
-    <div class="wrap"></div>
+    <div class="wrap">
+      <div class="footer__bottom__left">
+        <img src="<?php bloginfo('template_url');?>/assets/images/logo.png" class="logo" />
+      </div>
+      <div class="footer__bottom__right">
+        <div class="social-icons">
+          <a href="#" class="icon-facebook"></a>
+          <a href="#" class="icon-instagram"></a>
+        </div>
+        <a href="mailto:info@drchristianperetz.com" class="email-link">info@drchristianperetz.com</a>
+        <div class="footer__bottom__links">
+          <a href="#">privacy policy</a>
+          <a href="#">terms of agreement</a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
 <?php include 'page-templates/partials/foot.php'  ?>

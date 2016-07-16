@@ -41,6 +41,71 @@
 
   &__bottom {
     background-color: $_navy;
+    padding: 10px 0;
+    overflow: hidden;
+    color: $_sea-green-light;
+
+    &__left {
+      @include span-columns(2);
+      position: relative;
+      background-color: $white;
+      &:before {
+        position: absolute;
+        top: -10px;
+        height: calc(100% + 40px);
+        width: 200%;
+        right: -10px;
+        background-color: $white;
+        content: '';
+        z-index: 1;
+      }
+    }
+
+    &__right {
+      @include span-columns(10);
+      padding-top: 10px;
+    }
+
+    &__links {
+      float: right;
+    }
+
+    .logo {
+      position: relative;
+      z-index: 2;
+      margin-top: 10px;
+    }
+
+    .social-icons {
+      color: inherit;
+      display: inline-block;
+      margin-right: 20px;
+      a {
+        color: inherit;
+        font-size: 20px;
+        margin-right: 0;
+
+        &:hover {
+          opacity: .7;
+        }
+
+        &:first-of-type {
+          margin-right: 15px;
+        }
+      }
+    }
+
+    a {
+      color: inherit;
+      font-size: 14px;
+      margin-right: 20px;
+      &:hover {
+        opacity: .7;
+        text-decoration: none;
+
+      }
+    }
+
   }
 
   h2 {
