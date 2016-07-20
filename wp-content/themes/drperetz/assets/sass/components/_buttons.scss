@@ -22,6 +22,15 @@
       color: $_navy;
     }
   }
+  &--green--solid {
+    background-color: $_sea-green-light;
+    color: $_navy;
+    border: none;
+    &:hover {
+      background-color: $_navy;
+      color: $_sea-green-light;
+    }
+  }
   &--navy{
     color: $_navy;
     border-color: $_sea-green;
