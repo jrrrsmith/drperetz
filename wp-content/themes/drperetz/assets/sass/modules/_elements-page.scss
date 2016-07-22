@@ -7,6 +7,10 @@
 
 .elements-details {
 
+  &__section {
+    overflow: hidden;
+  }
+
   &__cover {
     position: relative;
     padding-bottom: 23%;
