@@ -10,9 +10,16 @@
   </div>
   <div class="header__bottom">
     <div class="header__inner wrap">
-      <a href="<?php home_url(); ?>">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo-wrap">
         <img src="<?php bloginfo('template_url');?>/assets/images/logo.png" class="logo" />
       </a>
+      <?php
+        wp_nav_menu( array(
+          'theme_location' => 'primary',
+          'menu_class'     => 'primary-menu',
+          'menu'           => 'Primary'
+         ) );
+      ?>
     </div>
   </div>
 </header>

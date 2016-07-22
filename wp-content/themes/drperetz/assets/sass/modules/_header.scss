@@ -19,6 +19,38 @@
     }
   }
 
+  .logo-wrap {
+    float: left;
+  }
+
+  .primary-menu {
+    float: left;
+    text-align: right;
+    width: calc(100% - 285px);
+    margin-top: 28px;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+
+      &.current_page_item a {
+        color: $_sea-green;
+        font-style: italic;
+        font-weight: 600;
+      }
+
+    }
+
+    a {
+      font-size: 14px;
+      color: $_navy;
+      &:hover {
+        color: $_sea-green;
+      }
+    }
+
+  }
+
   &__bottom {
     height: 75px;
     background-color: $white;
