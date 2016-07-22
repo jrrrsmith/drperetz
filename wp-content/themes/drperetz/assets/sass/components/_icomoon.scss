@@ -1,6 +1,6 @@
 @font-face {
 
-  $icomoon-id: hkpt4k;
+  $icomoon-id: gg5pdy;
 
   font-family: 'icomoon';
   src:    url('../fonts/icomoon.eot?$icomoon-id');
@@ -25,6 +25,10 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ctrl:before {
+  content: "\ea50";
 }
 
 .icon-facebook:before {
