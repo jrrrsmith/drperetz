@@ -13,6 +13,15 @@ $(document).ready(function () {
 });
 
 
+// Elements of Care sliding panels
+
+$(document).ready(function () {
+  $('.elements-details__cover').on('click', function(event) {
+    $(this).siblings().toggleClass('element-slide');
+  });
+});
+
+
 // VIDEO RESIZE FUNCTION
 
 $(document).ready(function() {
