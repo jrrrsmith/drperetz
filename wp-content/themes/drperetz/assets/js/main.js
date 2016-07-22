@@ -14,13 +14,20 @@ $(document).ready(function () {
 
 
 // Elements of Care sliding panels
-
+  //toggle panel slide
 $(document).ready(function () {
   $('.elements-details__cover').on('click', function(event) {
     $(this).siblings().toggleClass('element-slide');
   });
 });
 
+  //close panel
+
+$(document).ready(function () {
+  $('.slide-up').on('click', function(event) {
+    $(this).parent().removeClass('element-slide');
+  });
+});
 
 // VIDEO RESIZE FUNCTION
 

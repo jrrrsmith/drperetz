@@ -11,6 +11,7 @@
           <a href="#" class="button button--green--solid">Sign Up for Newsletter</a>
         </div>
       </div>
+      <span class="slide-up icon-ctrl"></span>
     </div>
   </div>
   <div class="elements-details__section">
@@ -25,6 +26,7 @@
           <a href="#" class="button button--green--solid">Sign Up for Newsletter</a>
         </div>
       </div>
+      <span class="slide-up icon-ctrl"></span>
     </div>
   </div>
   <div class="elements-details__section">
@@ -39,6 +41,7 @@
           <a href="#" class="button button--green--solid">Sign Up for Newsletter</a>
         </div>
       </div>
+      <span class="slide-up icon-ctrl"></span>
     </div>
   </div>
 </div>
