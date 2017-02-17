@@ -6,7 +6,7 @@
 
   &__top {
     height: 50px;
-    background-color: $_navy;
+    background-color: $light-green;
     .button {
       display: inline-block;
       margin-top: 8px;
@@ -21,6 +21,10 @@
 
   .logo-wrap {
     float: left;
+
+    img {
+      width: 300px;
+    }
   }
 
   .primary-menu {

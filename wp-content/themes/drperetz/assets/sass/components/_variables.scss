@@ -10,12 +10,17 @@ $_yellow-green: #374202;
 $_navy: #152132;
 $_aqua-green: #378480;
 
+$light-green: #a9decb;
+$sea-blue: #85a5ad;
+$slate: #53676c;
+
 //Fonts
 
-$primary-font: 'Source Sans Pro', sans-serif;
+$primary-font: 'Helvetica', sans-serif;
+$secondary-font: 'Alegreya', serif;
 
 $title-font: $primary-font;
-$copy-font: $primary-font;
+$copy-font: $secondary-font;
 
 //Misc
 

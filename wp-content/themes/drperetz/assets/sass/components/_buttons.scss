@@ -6,6 +6,7 @@
   border: 1px solid;
   border-radius: 5px;
   transition: all .3s ease-in-out;
+  font-family: $primary-font;
   &--white{
     color: $_sea-green-light;
     border-color: $white;
