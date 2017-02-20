@@ -64,20 +64,11 @@
     margin-top: 12px;
   }
 
-  input {
-    background-color: transparent;
-    color: $_sea-green-light;
-    border-color: $_sea-green !important;
-    padding: 5px 15px;
-    font-size: 14px;
-    font-weight: 700;
-    border: 1px solid;
-    border-radius: 5px;
-    max-width: 200px;
-    display: inline-block;
-    margin-top: 8px;
-    margin-right: 10px;
-    height: 33px;
+  .button--transparent {
+    border-color: $white;
+    width: 181px;
+    text-align: center;
+    margin-left: 15px;
   }
 
 }

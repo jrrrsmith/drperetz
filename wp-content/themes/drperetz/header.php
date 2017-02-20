@@ -3,8 +3,9 @@
   <div class="header__top">
     <div class="header__inner wrap">
       <div class="header__top__form">
-        <input type="text" placeholder="login:" />
-        <a class="button button--green" href="#">Schedule a Consultation</a>
+        
+        <a class="button button--blue" href="#">Schedule a Consultation</a>
+        <a class="button button--transparent" href="#">Login</a>
       </div>
     </div>
   </div>

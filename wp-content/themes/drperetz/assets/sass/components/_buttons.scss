@@ -1,42 +1,54 @@
 .button {
-  text-transform: uppercase;
+  text-transform: lowercase;
   padding: 5px 15px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 200;
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: all .3s ease-in-out;
   font-family: $primary-font;
-  &--white{
-    color: $_sea-green-light;
+
+  &:focus {
+    outline: none;
+  }
+
+  &--white {
+    color: $slate;
     border-color: $white;
+    background-color: $white;
     &:hover{
-      background-color: $_sea-green-light;
-      color: $_sea-green;
+      background-color: $slate;
+      color: $white;
     }
   }
-  &--green{
-    color: $_sea-green-light;
-    border-color: $_sea-green;
+
+  &--green {
+    color: $white;
+    border-color: $light-green;
+    background-color: $light-green;
     &:hover{
-      background-color: $_sea-green-light;
-      color: $_navy;
+      background-color: $white;
+      color: $light-green;
     }
   }
-  &--green--solid {
-    background-color: $_sea-green-light;
-    color: $_navy;
-    border: none;
+
+  &--blue {
+    color: $white;
+    border-color: $sea-blue;
+    background-color: $sea-blue;
+    &:hover{
+      background-color: $white;
+      color: $sea-blue;
+    }
+  }
+
+  &--transparent {
+    color: $slate;
+    background-color: transparent;
+    border-color: $slate;
+
     &:hover {
-      background-color: $_navy;
-      color: $_sea-green-light;
-    }
-  }
-  &--navy{
-    color: $_navy;
-    border-color: $_sea-green;
-    &:hover{
-      background-color: $_navy;
+      background-color: $slate;
       color: $white;
     }
   }
